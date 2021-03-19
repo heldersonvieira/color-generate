@@ -1,6 +1,6 @@
 const Get = {
     color() {
-        let letters = 'ABCDEF0123456789';
+        const letters = 'ABCDEF0123456789';
         let hexColor = '#';
         
         for (let i = 0; i < 6; i++) {
